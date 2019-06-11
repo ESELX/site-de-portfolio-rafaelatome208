@@ -260,7 +260,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 4px ##b1dcdf;
+		border-left: solid 4px #b1dcdf;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -292,7 +292,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px ##b1dcdf;
+		border-bottom: solid 1px #b1dcdf;
 		margin: 2em 0;
 	}
 
@@ -2246,8 +2246,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #585858;
-			border-color: #585858;
+			background: #b1dcdf;
+			border-color: #b1dcdf;
 			color: #ffffff;
 			content: '\f00c';
 		}
@@ -2689,23 +2689,23 @@ input, select, textarea {
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #bfbfbf;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #bfbfbf;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #bfbfbf;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+				background-color: #bfbfbf;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #bfbfbf;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
