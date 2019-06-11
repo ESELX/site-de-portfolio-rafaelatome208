@@ -116,7 +116,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #17739f;
+		color: #f5b1aa;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -145,13 +145,13 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #585858;
+		color: #b1dcdf;
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #17739f !important;
+			color: #f5b1aa !important;
 		}
 
 	strong, b {
@@ -260,7 +260,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 4px #c9c9c9;
+		border-left: solid 4px ##b1dcdf;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -269,7 +269,7 @@ input, select, textarea {
 	code {
 		background: rgba(144, 144, 144, 0.075);
 		border-radius: 4px;
-		border: solid 1px #c9c9c9;
+		border: solid 1px ##b1dcdf;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -292,7 +292,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px #c9c9c9;
+		border-bottom: solid 1px ##b1dcdf;
 		margin: 2em 0;
 	}
 
@@ -1825,7 +1825,7 @@ input, select, textarea {
 			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			background-color: transparent;
-			border: solid 1px #c9c9c9;
+			border: solid 1px #b1dcdf;
 			border-radius: 4px;
 			width: 2.65em;
 			height: 2.65em;
@@ -1840,12 +1840,12 @@ input, select, textarea {
 			}
 
 			.icon.style2:hover {
-				color: #17739f;
-				border-color: #17739f;
+				color: #b1dcdf;
+				border-color: #b1dcdf;
 			}
 
 			.icon.style2:active {
-				background-color: #17739f;
+				background-color: #b1dcdf;
 			}
 
 /* List */
@@ -1876,7 +1876,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 1px #c9c9c9;
+				border-top: solid 1px #b1dcdf;
 				padding: 0.5em 0;
 			}
 
@@ -2209,7 +2209,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #585858;
+			color: #b1dcdf;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2232,7 +2232,7 @@ input, select, textarea {
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
 				border-radius: 4px;
-				border: solid 1px #c9c9c9;
+				border: solid 1px #b1dcdf;
 				content: '';
 				display: inline-block;
 				height: 1.8em;
@@ -2270,7 +2270,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 4px;
-		border: solid 1px #c9c9c9;
+		border: solid 1px #b1dcdf;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2362,13 +2362,13 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #c9c9c9;
+			border: solid 1px #b1dcdf;
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(144, 144, 144, 0.075);
+				background-color: #b1dcdf;
 			}
 
 		table td {
@@ -2395,7 +2395,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px #c9c9c9;
+				border: solid 1px #b1dcdf;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2434,8 +2434,8 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #585858;
-		color: #585858 !important;
+		box-shadow: inset 0 0 0 2px #b1dcdf;
+		color: #b1dcdf!important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -2482,7 +2482,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #17739f;
+			background-color: #b1dcdf;
 		}
 
 		input[type="submit"].small,
@@ -2507,7 +2507,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #585858;
+			background-color: #b1dcdf;
 			color: #ffffff !important;
 		}
 
@@ -2524,7 +2524,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #ee5f81;
+				background-color: #b1dcdf;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2968,7 +2968,7 @@ input, select, textarea {
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
 		background: #ffffff;
-		color: #17739f;
+		color: #b1dcdf;
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;
